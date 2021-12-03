@@ -1,0 +1,623 @@
+body {
+  overflow-x: hidden;
+}
+
+#navcol-1 a {
+  font-size: 20px;
+  font-weight: 800;
+  padding: 0 40px 0 40px;
+}
+
+#navcol-1 .iconos a {
+  padding: 0;
+}
+
+#navcol-1 i {
+  font-size: 20px;
+  padding: 0 10px 0 10px;
+  color: #fff;
+}
+
+.navbar.navbar-light.navbar-expand-md {
+  background: rgba(255,255,255, 0.3);
+  padding: 20px;
+}
+
+.welcome {
+  background: #E3D5C8;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.welcome h3 {
+  color: #BC996D;
+  font-family: 'Aguafina Script';
+  font-weight: 700;
+}
+
+.welcome .saludo {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+  background: #000;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.welcome .saludo button {
+  background: none;
+  color: #BC996D;
+  border: 2px #BC996D solid;
+  padding: 5px 25px;
+}
+
+.welcome .saludo .acomodar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about {
+  padding: 30px;
+}
+
+.about img {
+  width: 100%;
+}
+
+.image1 {
+  width: 100%;
+  height: 500px;
+  background: url("./tr2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+@media (max-width: 992px) {
+  .image1 {
+    width: 100%;
+    background: url("./tr2.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+.fondovideo {
+  background: url("./o.jpg");
+  width: 100%;
+  height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+@media (max-width: 992px) {
+  .fondovideo {
+    background: url("./o.jpg");
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+#navcol-1 span:hover {
+  color: #000;
+}
+
+.testimonials-clean {
+  margin: auto;
+  text-align: center;
+  max-width: 1200px;
+  padding: 30px;
+}
+
+.image2 {
+  width: 100%;
+  height: 500px;
+  background: url("./tr3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+@media (max-width: 992px) {
+  .image2 {
+    width: 100%;
+    background: url("./tr3.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+}
+
+.contacto {
+  text-align: center;
+}
+
+.logo img {
+  width: 250px;
+}
+
+.about {
+  text-align: center;
+}
+
+.about .videofb {
+  text-align: center;
+  border: 5px #BC996D solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+}
+
+.about .videofb img {
+  width: 80%;
+}
+
+@media (max-width: 992px) {
+  .about .videofb {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+}
+
+.menuBoton {
+  text-align: center;
+}
+
+.menuBoton button {
+  background: none;
+  border: 2px green solid;
+  padding: 25px;
+  width: 30%;
+  margin-bottom: 50px;
+  border-radius: 15px;
+  font-family: 'Roboto';
+  font-weight: 900;
+  font-size: 30px;
+  color: green;
+}
+
+.menuBoton a {
+  color: green;
+  text-decoration: none;
+}
+
+.menuBoton button:hover {
+  background: rgb(0,72,0);
+  color: #fff;
+}
+
+@media (max-width: 576px) {
+  .menuBoton button {
+    width: 50%;
+  }
+}
+
+@media (max-width: 300px) {
+  .menuBoton button {
+    width: 100%;
+  }
+}
+
+.photo-gallery p {
+  text-align: center;
+}
+
+/* navbar */
+
+#header {
+  background: rgba(0,0,0,0.3);
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10000;
+}
+
+#header .logo {
+  color: #fff;
+  font-weight: 700;
+  font-size: 2em;
+  text-decoration: none;
+}
+
+#header .navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#header .navigation li {
+  list-style: none;
+  margin-left: 10px;
+}
+
+#header .navigation li a {
+  text-decoration: none;
+  padding: 6px 15px;
+  color: #fff;
+  border-radius: 20px;
+  text-align: center;
+}
+
+#header .navigation li a:hover, #header .nsvigation li a.active {
+  background: #fff;
+  color: #111;
+}
+
+#header button {
+  background: #00993A;
+  border-radius: 30px;
+  padding: 30px;
+  text-align: center;
+  border: none;
+  color: #fff;
+}
+
+#header .navigation button a:hover {
+  background: none;
+  color: #fff;
+}
+
+#header button:hover {
+  background: rgb(26,188,0);
+}
+
+#header a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#header a span {
+  font-size: 12px;
+}
+
+/* end navbar */
+
+/* start dropdown */
+
+/* Dropdown Button */
+
+.dropbtn {
+  background-color: rgba(0,0,0,0);
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #000000;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+
+.dropdown:hover .dropbtn {
+  background-color: #000000;
+}
+
+/* end dropdown */
+
+@media (max-width: 992px) {
+  #header {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 992px) {
+  #header .logo {
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 992px) {
+  #header .navigation {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  #header .navigation.active {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,0.8);
+  }
+}
+
+@media (max-width: 992px) {
+  #header .navigation li {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 992px) {
+  #header .navigation li a {
+    font-size: 1.2em;
+    margin: 5px 0;
+    border-radius: 30px;
+    display: inline-block;
+  }
+}
+
+@media (max-width: 992px) {
+  .toggle {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background: url("./menu.png");
+    background-size: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 10000;
+  }
+}
+
+@media (max-width: 992px) {
+  .toggle.active {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: url("./close.png");
+    background-size: 25px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
+.mapas {
+  margin: auto;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.mapas h3 {
+  color: #fff;
+  padding: 5px;
+}
+
+/* Dropdown Button */
+
+.saludo .dropbtn {
+  background-color: #000;
+  color: #BC996D;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+
+.saludo .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+
+.saludo .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #000000;
+  min-width: 250px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+
+.saludo .dropdown-content a {
+  color: #fff;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+
+.saludo .dropdown-content a:hover {
+  border: #BC996D 2px solid;
+  background: none;
+}
+
+/* Show the dropdown menu on hover */
+
+.saludo .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+
+.saludo .dropdown:hover .dropbtn {
+  background-color: #000000;
+}
+
+/* end dropdown */
+
+.tacosrojas {
+  text-align: center;
+  text-align: center;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.tacosrojas img {
+  width: 90%;
+}
+
+.tacosrojas button {
+  background: #850000;
+  border-radius: 15px;
+  padding: 8px 30px;
+  margin-top: 20px;
+  color: #000000;
+  border: none;
+}
+
+.tacosrojas h3 {
+  color: rgb(135,0,0);
+  margin-bottom: 20px;
+}
+
+.tacosrojas button a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+@media (max-width: 576px) {
+  .tacosrojas h3 {
+    margin-top: 25px;
+    border-top: 1px red solid;
+  }
+}
+
+.horario {
+  max-width: 800px;
+  margin: auto;
+  padding: 30px 0 30px 0;
+  border: red 2px solid;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.horario h3 {
+  color: #C0160C;
+}
+
+.horario p {
+  color: #00993A;
+}
+
+.acercade {
+  max-width: 800px;
+  color: #fff;
+  margin: auto;
+  text-align: center;
+}
+
+.acercade p {
+  color: #E62E25;
+}
+
+.acercade h2 {
+  font-family: 'Montserrat';
+  font-weight: 900;
+}
+
+.acercade .linea {
+  width: 30%;
+  height: 2px;
+  background: red;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin: auto;
+}
+
+.acercade h2 #verde {
+  color: rgb(0,119,0);
+}
+
+.acercade h2 #rojo {
+  color: rgb(164,0,0);
+}
+
+.horario {
+  text-align: center;
+}
+
+#myFooter {
+  background: #C0160C;
+}
+
+#myFooter .row {
+  background: #C0160C;
+}
+
+.portadalocation {
+  background: url("./platillo2.png");
+  width: 100%;
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.portadamenu {
+  background: url("./m6.jpg");
+  width: 100%;
+  height: 800px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@media (max-width: 992px) {
+  .portadamenu {
+    height: 400px;
+    background: url("./m6.jpg");
+    background-position: center;
+    background-size: cover;
+  }
+}
+
